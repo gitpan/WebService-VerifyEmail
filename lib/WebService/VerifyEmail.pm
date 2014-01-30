@@ -1,8 +1,9 @@
 package WebService::VerifyEmail;
 {
-  $WebService::VerifyEmail::VERSION = '0.01';
+  $WebService::VerifyEmail::VERSION = '0.02';
 }
 
+use 5.006;
 use Moo;
 use Net::HTTP::Tiny qw(http_get);
 use JSON qw(decode_json);

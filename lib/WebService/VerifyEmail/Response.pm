@@ -1,6 +1,6 @@
 package WebService::VerifyEmail::Response;
 {
-  $WebService::VerifyEmail::Response::VERSION = '0.01';
+  $WebService::VerifyEmail::Response::VERSION = '0.02';
 }
 
 use Moo;
